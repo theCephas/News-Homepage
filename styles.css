@@ -23,20 +23,17 @@
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
     #gaming {
         display: contents;
         margin-right: 0px;
         width: 300px;
     }
     
-    .desktop {
-        width: 900px;
-    }
     /* #section1 {
         display: flex;
     }*/
 } 
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center; padding-top: 20px;}
 .attribution a { color: hsl(228, 45%, 44%); }
