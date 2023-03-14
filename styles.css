@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --off-white: 36deg 100% 99%;
+        --grayish-blue: 233deg 13% 42%;
+        --dark-grayishblue: 236deg 13% 42%;
+        --very-darkblue: 240deg 100% 5%;
+        --soft-orange: 35deg 77% 62%;
+        --soft-red: 5deg 85% 63%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .desktop {
+        display: none;
+        
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #gaming {
+        display: contents;
+        margin-right: 0px;
+        width: 300px;
+    }
+    
+    .desktop {
+        width: 900px;
+    }
+    /* #section1 {
+        display: flex;
+    }*/
+} 
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
